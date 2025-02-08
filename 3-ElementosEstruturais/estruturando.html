@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>estrutura do HTML</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background-color: #e0e0e0b8;
+      overflow-x: hidden;
+    }
+
+    header {
+      display: flex;
+      background-color: rgb(255, 255, 255);
+      margin: 0;
+      padding: 0;
+      width: auto;
+      align-items: center;
+      color: #a2a2a2aa;
+      font-size: 2rem;
+      font-weight: bold;
+      justify-content: space-around;
+    }
+
+    header nav{
+      display: flex;
+      width: 25%;
+      justify-content: space-around;
+    }
+    header nav a {
+      text-decoration: none;
+      background-color: #f6f6f6;
+      color: #a2a2a2aa;
+      padding: .3rem;
+      border-radius: 8px;
+      box-shadow: 2px 2px 2px  rgba(0, 0, 0, .3);
+    }
+
+    
+    main {
+      background-color: transparent;
+      height: 100vh;
+      width: 100%;
+      margin: 1rem auto;
+      padding: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+    }
+
+    main section {
+      background-color: #fff;
+      color: #a9a9a9;
+      width: 70%;
+      padding: 1rem;
+      border-radius: 8px;
+      justify-content: center;
+      box-shadow: 2px 2px 2px  rgba(0, 0, 0, .3);
+    }
+
+    main aside {
+      background-color: #fff;
+      color: #a2a2a2aa;
+      width: 20%;
+      padding: 2rem;
+      border-radius: 8px;
+      overflow-y: scroll;
+      box-shadow: 2px 2px 2px  rgba(0, 0, 0, .3);
+    }
+
+    main aside h2 {
+      border-bottom: 2px dashed #c8c8c8;
+      text-align: center;
+      
+    }
+
+    main aside p {
+      background-color: rgb(192, 192, 191);
+      color: #f6f6f6;
+      padding: 1rem;
+      font-size: 1.3rem;
+      border-radius: 8px;
+      font-weight: 600;
+      text-align: center;
+      box-shadow: 2px 2px 2px  rgba(0, 0, 0, .3);
+    }
+
+    footer {
+      padding: 3rem;
+      text-align: center;
+      font-size: 3rem;
+      color: rgb(160, 160, 160);
+    }
+
+    .tags {
+      display:flex;
+      background-color: rgb(219, 219, 219);
+      overflow-x: scroll;
+    }
+
+    .tags p {
+      background-color: #fff;
+      margin: .5rem;
+      padding: .5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .3);
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <header>
+    <div><span>Logo</span></div>
+    <p>cabeçalho</p>
+    <nav>
+      <a href="#">opção 1</a>
+      <a href="#">opção 2</a>
+      <a href="#">opção 3</a>
+    </nav>
+  </header>
+  <section class="tags">
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+    <p>#informartica</p>
+  </section>
+  <main>
+    <section>
+      <h1>Conteudo principal</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam repellendus adipisci cupiditate
+        voluptatibus
+        modi, quae accusantium fugit tempore itaque quam, iure repudiandae esse molestiae, dolores maxime doloremque
+        inventore tempora dolorum?
+      </p>
+      <h2>titulo2</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam repellendus adipisci cupiditate
+        voluptatibus
+        modi, quae accusantium fugit tempore itaque quam, iure repudiandae esse molestiae, dolores maxime doloremque
+        inventore tempora dolorum?
+      </p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam repellendus adipisci cupiditate
+        voluptatibus
+        modi, quae accusantium fugit tempore itaque quam, iure repudiandae esse molestiae, dolores maxime doloremque
+        inventore tempora dolorum?
+      </p>
+      <h2>titulo2</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam repellendus adipisci cupiditate
+        voluptatibus
+        modi, quae accusantium fugit tempore itaque quam, iure repudiandae esse molestiae, dolores maxime doloremque
+        inventore tempora dolorum?
+      </p>
+    </section>
+
+    <aside>
+      <h2>Historico</h2>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+      <p>produto</p>
+    </aside>
+  </main>
+  <footer>
+    <p>@2025</p>
+  </footer>
+</body>
+
+</html>
