@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>flex-grow</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: rgba(214, 121, 121, 0.596);
+            border: 3px dashed #2b2e2b;
+            gap: 4px;
+        }
+
+        .item{
+            width: 40px;
+            height: 40px;
+            background-color: #2b2e2b;
+            border: solid #fff;
+            color: #fff;
+            border-radius: 4px;
+        }
+
+        .container .item:nth-child(1){
+            flex-grow: 1;
+        }
+
+        .container2{
+            display: flex;
+            background-color: rgba(51, 107, 228, 0.596);
+            border: 3px dashed #2b2e2b;
+            gap: 4px;
+        }
+
+        .container2 .item{
+            flex-grow: 1;
+        }
+
+        
+        .container2 .item{
+            flex-grow: 3;
+            background-color: rgb(145, 74, 74);
+        }
+
+        .container3{
+            display: flex;
+            background-color: rgba(72, 230, 58, 0.596);
+            border: 3px dashed #2b2e2b;
+            gap: 4px;
+        }
+
+        .container3 .item:nth-child(3), .container3 .item:nth-child(2){
+            flex-grow: 5;
+            background-color: antiquewhite;
+            color: #2b2e2b;
+        }
+    </style>
 </head>
 <body>
+    <h1>flex grow</h1>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
     
+    </div>
+
+    <p>container 2 -> flex grow:1;</p>
+    <div class="container2">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+       
+    </div>
+
+    <p>container 3</p>
+    <div class="container3">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+    </div>
 </body>
 </html>
