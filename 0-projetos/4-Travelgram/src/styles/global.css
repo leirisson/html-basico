@@ -24,5 +24,21 @@ body{
     font: var(--text-lg);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: var(--brando-color);
+    text-decoration: underline;
+}
+
+.container{
+    padding-inline: 2rem ;
+    max-width: 1280px;
+    margin-inline: auto;
+}
