@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 60px;
+            height: 60px;
+            border: solid;
+            text-align: center;
+            line-height: 250%;
+            margin: 6px;
+            background-color: rgb(12, 212, 56);
+            font-weight: 600;
+            border-radius: 16px;
+        }
+
+        div:hover {
+            background-color: antiquewhite;
+
+        }
+
+        div:not(.nao) {
+            background-color: blue;
+            color: #fff;
+        }
+
+        section:has(div:hover) {
+            border: 4px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div class="nao">3</div>
+        <div>4</div>
+    </section>
+
+</body>
+
+</html>
