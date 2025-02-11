@@ -21,3 +21,7 @@ nav ul li:last-child img {
     object-fit: cover;
     border-radius: 50%;
 }
+
+.bg-suface-color{
+    background-color: var(--surface-color);
+}

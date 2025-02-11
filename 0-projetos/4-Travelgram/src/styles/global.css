@@ -9,10 +9,10 @@
     --font-family: "Poppins", serif;
     --text-lg: bold 32px/125% var(--font-family);
     --text: 16/150% var(--font-family);
-    --text-md: 14px/175% var(--font-family);
-    --text-sm: 12px/175% var(--font-family);
-    
+    --text-md: 14px/170% var(--font-family);
+    --text-sm: 12px/170% var(--font-family);
 }   
+
 
 *{
     padding: 0;
@@ -24,7 +24,6 @@ body{
     font: var(--text-lg);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
-
 }
 
 a{
