@@ -45,3 +45,43 @@
     display: flex;
     gap: var(--gap-l);
 }
+
+/* media query para tablet */
+
+@media (max-width: 1200px){
+    .nav__list{
+        row-gap: var(--gap-l);
+        gap: var(--gap-s);
+    }
+
+    .nav__item__form {
+        flex: 1 1 100%;
+        text-align: center;
+        order: 1;
+    }
+
+    .header {
+        padding: 0 var(--padding-xxl);
+    }
+}
+
+
+@media screen and (max-width:730px){
+    .nav__link {
+        display: none;
+    }
+
+    .menu__toggle{
+        display: block;
+        cursor: pointer;
+    }
+
+    .header{
+        padding: 0 var(--padding-m);
+    }
+
+    .menu__toggle__icon {
+        background-color: transparent;
+        border: none;
+    }
+}
