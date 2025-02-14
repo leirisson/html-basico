@@ -59,19 +59,19 @@
 
     --max-width-block: 75rem;
 
-    
-        --margin-xs: 0.5rem;
-        --margin-s: 1rem;
-        --margin-m: 1.5rem;
-        --margin-l: 2rem;
 
-        --line-height-xs: 1.2rem;
-        --line-height-s: 1.5rem;
-        --line-height-m: 1.75rem;
-        --line-height-l: 2rem;
-        --line-height-xl: 2.5rem;
-        --line-height-xxl: 5.7rem;
-    
+    --margin-xs: 0.5rem;
+    --margin-s: 1rem;
+    --margin-m: 1.5rem;
+    --margin-l: 2rem;
+
+    --line-height-xs: 1.2rem;
+    --line-height-s: 1.5rem;
+    --line-height-m: 1.75rem;
+    --line-height-l: 2rem;
+    --line-height-xl: 2.5rem;
+    --line-height-xxl: 5.7rem;
+
 
 }
 
