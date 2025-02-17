@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+#app{
+    display: grid;
+    grid-template-areas: 
+    "A B B"
+    "A B B"
+    "A C D";
+    height: 100vh;
+    background-color: #888;
+    padding: 1rem;
+    gap: .3rem;
+
+}
+
+#app > * {
+    border: solid 2px  red;
+    
+}
+
+#app header {
+    grid-area: A;
+    background-color: aquamarine;
+    border-radius: 8px;
+
+}
+
+#app main {
+    grid-area: B;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+#app aside {
+    background-color: black;
+    color:#fff;
+    border-radius: 8px;
+
+}
+#app footer {
+background-color: #702f2f;
+color: #fff;
+border-radius: 8px;
+
+}

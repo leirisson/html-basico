@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.app > * {
+    border: 1px solid red;
+}
+
+.app{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main   main   aside"
+    "footer footer footer";
+    height: 100vh;
+    padding: 1rem;
+    gap: .3rem;
+    box-sizing: border-box;
+}
+
+
+.app header {
+    grid-area: header;
+    background-color: #c40cca;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.app main {
+    grid-area: main;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.app aside {
+    grid-area: aside;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+.app footer {
+    grid-area: footer;
+    background-color: #cec8c8;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+}
+

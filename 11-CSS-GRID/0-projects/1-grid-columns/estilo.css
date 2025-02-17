@@ -5,8 +5,7 @@ body{
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     padding: .5rem;
-    
-
+    height: 100vh;
 }
 
 header{
@@ -27,7 +26,7 @@ nav{
 
 .logo{
     grid-row: 1/5;
-    background-color: aqua;
+    background-color: rgb(255, 94, 0);
     border-radius: 8px;
     box-shadow: 1px 1px 24px 1px rgba(0, 0, 0, 0.185)
 }
@@ -58,6 +57,7 @@ main{
 
 aside{
     grid-column: 4/5;
+    grid-row: 2/5;
     background-color: brown;
     border-radius: 8px;
     box-shadow: 1px 1px 24px 1px rgba(0, 0, 0, 0.185);
@@ -65,7 +65,8 @@ aside{
 }
 
 footer{
-    grid-column: 1/5;
+    grid-column: 1/4;
+    grid-row: 3/5;
     background-color: cadetblue;
     border-radius: 8px;
     box-shadow: 1px 1px 24px 1px rgba(0, 0, 0, 0.185);
