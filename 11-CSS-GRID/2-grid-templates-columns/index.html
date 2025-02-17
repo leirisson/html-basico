@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>grid templates</title>
+    <style>
+        #app{
+            display:grid;
+            /* grid-template-columns: 110px 20px 300px; */
+            /* grid-template-columns: 1fr 3fr 1fr; */
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        #app > div{
+            border: 1px solid;
+        }
+
+        span{
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div>1</div>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+    </div>
+</body>
+</html>
