@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.grid {
+    display: grid;
+    height: 50vh;
+    width: 100vw;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+
+    gap: 8px;
+
+    background-color: black;
+
+    /* align-items: end; */
+    align-items: last baseline;
+
+}
+
+
+
+.grid > div{
+    background-color: cornflowerblue;
+    
+}
