@@ -5,4 +5,20 @@
         border-radius: 4px;
     }
 
+    .card{
+        position: relative;
+        border-radius: 4px;
+        overflow: hidden;
+        &::before{
+            position: absolute;
+            inset:0;
+            content: "";
+            top: 50%;
+            background-color: linear-gradiente(
+                180deg,
+                transparent 0%,
+                #020617 100%
+            );
+        }
+    }
 }
