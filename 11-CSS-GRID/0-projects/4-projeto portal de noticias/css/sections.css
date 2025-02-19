@@ -1,26 +1,49 @@
-#fetured{
-    img{
+section header {
+    border-top: 1px solid var(--stroke-color);
+    padding-block: 12px 24px;
+    font: var(--text-span);
+
+    a {
+        justify-self: end;
+        align-items: center;
+        gap: 8px;
+
+        span {
+            background-image: url('../assets/icons/arrow-white.svg');
+            width: 16px;
+            height: 16px;
+        }
+
+        &:hover span {
+            background-image: url('../assets/icons/ArrowRight.svg');
+        }
+    }
+
+
+
+}
+
+#fetured {
+    img {
         height: 100%;
         object-fit: cover;
         border-radius: 4px;
     }
 
-    .card{
+    .card {
         position: relative;
         border-radius: 4px;
         overflow: hidden;
 
-        &::before{
+        &::before {
             content: "";
             position: absolute;
             top: 50%;
-            inset:0;
+            inset: 0;
 
-            background: linear-gradient(
-                180deg,
-                transparent 50%,
-                #020617 100%
-            );
+            background: linear-gradient(180deg,
+                    transparent 50%,
+                    #020617 100%);
         }
 
         figcaption {
@@ -28,13 +51,42 @@
             bottom: 0;
             padding: 24px;
 
-            &:has(.text-lg){
+            &:has(.text-lg) {
                 padding: 12px;
             }
 
-            h2{
+            h2 {
                 margin-top: 8px;
             }
+        }
+    }
+}
+
+#weekly {
+
+
+
+
+    &>div {
+        grid-template-columns: repeat(4, 292px);
+    }
+
+    img {
+        height: 160px;
+    }
+
+    figure{
+        position: relative;
+
+        .content-tag{
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+
+        p{
+            margin: 8px;
+            font-weight: 800;
         }
     }
 }
