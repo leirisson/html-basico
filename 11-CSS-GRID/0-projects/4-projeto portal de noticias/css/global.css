@@ -53,8 +53,16 @@ img{
 }
 
 main{
-    margin-top: 40px;
-    gap: 80px;
+    margin-block: 40px;
+    row-gap: 80px;
+    column-gap: 32px;
+
+    grid-template-columns: 1fr 30%;
+
+    grid-template-areas: 
+    "fetured fetured"
+    "weekly weekly"
+    "ai aside";
 }
 
 .content-tag{
