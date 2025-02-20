@@ -16,6 +16,10 @@
     gap: 16px;
 }
 
+.gap-32{
+    gap: 32px;
+}
+
 .text-2xl {
 font: var(--h1);
 }
@@ -28,7 +32,9 @@ font: var(--h1);
     font: var(--h3);
 }
 
-/* .text-sm{
+.text-sm{
+font: var(--text-sm);
+}
 
-} */
+
 

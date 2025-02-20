@@ -10,6 +10,7 @@ section header {
 
         span {
             background-image: url('../assets/icons/arrow-white.svg');
+            background-repeat: no-repeat;
             width: 16px;
             height: 16px;
         }
