@@ -1,0 +1,4 @@
+services:
+  web:
+    image: node:20
+    
