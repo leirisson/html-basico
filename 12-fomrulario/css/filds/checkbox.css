@@ -1,0 +1,43 @@
+.terms-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    gap: .75rem;
+    align-items: flex-start;
+
+    & strong {
+        font-weight: 500;
+        color: var(--stroke-highlight);
+    }
+}
+
+.checkbox-wrapper {
+    position: relative;
+
+    & [type="checkbox"]{
+        all: unset;
+        position: absolute;
+        inset: 0;
+    }
+
+    .checkbox-image {
+        flex: 0 0 1.3rem;
+        height: 1.3rem;
+        background-image: url('../../assets/icons/check-box-padrao.svg');
+
+            
+        
+    }
+
+    &:hover, &:focus-within {
+        & .checkbox-image{
+            background-image: url('../../assets/icons/checkbox-laranja.svg');
+            background-repeat: no-repeat;
+        }
+
+       
+    }
+
+    &:has(:checked) .checkbox-image{
+        background-image: url('../../assets/icons/check-box-preenchido.svg');
+    }
+}
