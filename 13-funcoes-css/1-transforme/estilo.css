@@ -1,0 +1,7 @@
+div {
+width: 30px;
+height: 30px;
+border: pink solid;
+
+transform:  translate(50px, 100px) rotate(60deg) scale(3);
+}
